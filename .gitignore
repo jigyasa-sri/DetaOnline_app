@@ -2,6 +2,16 @@
 
 # dependencies
 node_modules/
+android/
+android/*
+android/*/**
+ios/
+ios/*
+ios/*/**
+
+.vscode/
+.vscode/*
+.vscode/*/**
 
 # Expo
 .expo/
