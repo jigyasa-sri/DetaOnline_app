@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 import { WebView } from "react-native-webview";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar style="auto"/>
+      <StatusBar style="auto" />
       <View style={styles.container}>
         <WebView source={{ uri: "https://deta.detasys.com" }} />
       </View>
