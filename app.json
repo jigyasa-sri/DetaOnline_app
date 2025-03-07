@@ -4,11 +4,11 @@
     "slug": "asdol-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/asdol_logo.jpeg",
+    "icon": "./assets/asdol_logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/asdol_logo.jpeg",
+      "image": "./assets/asdol_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
