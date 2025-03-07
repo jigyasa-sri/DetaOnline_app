@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff",
   },
   splashImage: {
-    width: 200,
+    width: 500,
     height: 200,
     resizeMode: "contain",
   },
