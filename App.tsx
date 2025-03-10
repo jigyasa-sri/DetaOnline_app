@@ -28,13 +28,13 @@ export default function App() {
       {isLoading ? (
         <View style={styles.splashContainer}>
           <Image
-            source={require("./assets/asdol_logo.png")}
+            source={require("./assets/flash.png")}
             style={styles.splashImage}
           />
         </View>
       ) : (
         <View style={styles.container}>
-          <WebView source={{ uri: "https://deta.detasys.com" }} />
+          <WebView source={{ uri: "https://asdolens.com" }} />
         </View>
       )}
     </SafeAreaView>

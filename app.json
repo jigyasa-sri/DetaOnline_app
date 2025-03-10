@@ -8,9 +8,11 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/asdol_logo.png",
+      "image": "./assets/flash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "width": "500",
+      "height": "200"
     },
     "ios": {
       "supportsTablet": true
