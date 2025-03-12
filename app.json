@@ -4,22 +4,19 @@
     "slug": "asdol-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/asdol_logo.png",
+    "icon": "./assets/asdolLogo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/flash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff",
-      "width": "500",
-      "height": "200"
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/asdol_logo.png",
+        "foregroundImage": "./assets/asdolLogo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.jigyasa_sri.DetaOnline_app"

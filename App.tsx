@@ -18,7 +18,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 2500);
   }, []);
 
   return (
@@ -28,7 +28,7 @@ export default function App() {
       {isLoading ? (
         <View style={styles.splashContainer}>
           <Image
-            source={require("./assets/flash.png")}
+            source={require("./assets/asdol_flash.png")}
             style={styles.splashImage}
           />
         </View>
@@ -53,8 +53,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff",
   },
   splashImage: {
-    width: 500,
-    height: 200,
     resizeMode: "contain",
   },
   container: {
